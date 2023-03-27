@@ -3,4 +3,10 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c7283d804f1f5ee8abde/maintainability)](https://codeclimate.com/github/dcdim/frontend-project-44/maintainability)
 
-https://asciinema.org/a/5zAI06VnfRTy9kwBLCfiwmG8t
+Brain-even:
+
+[![asciicast](https://asciinema.org/a/dpPcZmPD8GGD6uHZbW1KhKi0n.svg)](https://asciinema.org/a/dpPcZmPD8GGD6uHZbW1KhKi0n)
+
+Brain-calc:
+
+[![asciicast](https://asciinema.org/a/00dCCUomPmyZ5yUpNksZ6GQZP.svg)](https://asciinema.org/a/00dCCUomPmyZ5yUpNksZ6GQZP)
