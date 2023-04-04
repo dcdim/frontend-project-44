@@ -12,7 +12,6 @@ const getQuestionAndAnswer = () => {
   const gameQuestion = `${randomNumber1} ${randomNumber2}`;
 
   function divisors1() {
-    // const number1 = randomNumber1;
     const result = [];
     for (let i = 0; i <= randomNumber1; i += 1) {
       if (randomNumber1 % i === 0) {
@@ -55,5 +54,3 @@ const runGcdGame = () => {
 };
 
 export default runGcdGame;
-
-// runGcdGame();
