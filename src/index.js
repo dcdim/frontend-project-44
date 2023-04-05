@@ -9,7 +9,7 @@ const gameLogic = (questions, mainQuestion) => {
   console.log(`${mainQuestion}`);
 
   for (let i = 0; i < roundNumber; i += 1) {
-    const [rightAnswer, gameQuestion] = questions[i];
+    const [gameQuestion, rightAnswer] = questions[i];
     console.log(`Question: ${gameQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (`${rightAnswer}` === userAnswer) {
