@@ -2,7 +2,7 @@ import gameLogic, { roundNumber } from '../index.js';
 
 import getRandomNumber from '../random.js';
 
-const mainQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
+const mainQuestion = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 const getQuestionAndAnswer = () => {
   const randomNumber = getRandomNumber(1, 10);
