@@ -42,7 +42,7 @@ const getQuestionAndAnswer = () => {
 
   const rightAnswer = largestNumber(commonDivisors);
 
-  return [rightAnswer, gameQuestion];
+  return [gameQuestion, rightAnswer];
 };
 
 const runGcdGame = () => {

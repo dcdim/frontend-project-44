@@ -30,7 +30,7 @@ const getQuestionAndAnswer = () => {
 
   const rightAnswer = isPrime();
 
-  return [rightAnswer, gameQuestion];
+  return [gameQuestion, rightAnswer];
 };
 
 const runPrimeGame = () => {

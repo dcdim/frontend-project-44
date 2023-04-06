@@ -33,7 +33,7 @@ const getQuestionAndAnswer = () => {
 
     const gameQuestion = result.join(' ');
 
-    return [rightAnswer, gameQuestion];
+    return [gameQuestion, rightAnswer];
   }
 
   return progression();

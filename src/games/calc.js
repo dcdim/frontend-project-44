@@ -15,8 +15,8 @@ const getQuestionAndAnswer = () => {
 
   // eslint-disable-next-line no-eval
   const rightAnswer = eval(`${randomNumber1} ${randomOperator} ${randomNumber2}`);
-  //   }
-  return [rightAnswer, gameQuestion];
+
+  return [gameQuestion, rightAnswer];
 };
 
 const runCalcGame = () => {
