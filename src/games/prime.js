@@ -7,7 +7,7 @@ const mainQuestion = 'Answer "yes" if given number is prime. Otherwise answer "n
 const getQuestionAndAnswer = () => {
   const randomNumber = getRandomNumber(2, 100);
 
-  const gameQuestion = `${randomNumber}`;
+  const gameQuestion = randomNumber;
 
   const isPrime = () => {
     const result = [];

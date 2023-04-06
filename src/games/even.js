@@ -7,21 +7,19 @@ const mainQuestion = 'Answer "yes" if the number is even, otherwise answer "no".
 const getQuestionAndAnswer = () => {
   const randomNumber = getRandomNumber(1, 10);
 
-  const gameQuestion = `${randomNumber}`;
+  const gameQuestion = randomNumber;
 
   const isEven = () => {
     let answer = '';
-    // for (let i = 0; i <= randomNumber; i += 1) {
 
-    // return (randomNumber % 2 === 0) ? 'yes' : 'no';
-      if (randomNumber % 2 === 0) {
-        answer = 'yes';
-      } else if (randomNumber % 2 !== 0) {
-        answer = 'no';
-      }
-    // }  
+    if (randomNumber % 2 === 0) {
+      answer = 'yes';
+    } else if (randomNumber % 2 !== 0) {
+      answer = 'no';
+    }
+
     return answer;
-  }  
+  };
   const rightAnswer = isEven();
 
   return [gameQuestion, rightAnswer];
