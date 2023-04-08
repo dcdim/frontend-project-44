@@ -12,7 +12,7 @@ const gameLogic = (questions, mainQuestion) => {
     const [gameQuestion, rightAnswer] = questions[i];
     console.log(`Question: ${gameQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (rightAnswer === userAnswer) {
+    if (`${rightAnswer}` === userAnswer) {
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'`);
