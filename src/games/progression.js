@@ -2,7 +2,7 @@ import gameLogic, { roundNumber } from '../index.js';
 
 import getRandomNumber from '../random.js';
 
-const mainQuestion = 'What is the result of the expression?';
+const mainQuestion = 'What number is missing in the progression?';
 
 const getQuestionAndAnswer = () => {
   let startNumber = getRandomNumber(1, 50);
