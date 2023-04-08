@@ -14,7 +14,6 @@
   <li>Определение простого числа.</li>
 </ul>
 
-
 Brain-even:
 
 [![asciicast](https://asciinema.org/a/dpPcZmPD8GGD6uHZbW1KhKi0n.svg)](https://asciinema.org/a/dpPcZmPD8GGD6uHZbW1KhKi0n)
