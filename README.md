@@ -3,16 +3,25 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c7283d804f1f5ee8abde/maintainability)](https://codeclimate.com/github/dcdim/frontend-project-44/maintainability)
 
-Описание
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+<h3>Description</h3>
+<p>"Mind Games" is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again. Games:</p>
 
 <ul>
-  <li>Калькулятор. Арифметические выражения, которые необходимо вычислить.</li>
-  <li>Прогрессия. Поиск пропущенных чисел в последовательности чисел.</li>
-  <li>Определение четного числа.</li>
-  <li>Определение наибольшего общего делителя.</li>
-  <li>Определение простого числа.</li>
+  <li>Brain-calc. Arithmetic expressions to be calculated.</li>
+  <li>Brain-progression.  Finding missing numbers in a sequence of numbers.</li>
+  <li>Brain-even. Determining an even number.</li>
+  <li>Brain-gcd. Determining the largest common divisor.</li>
+  <li>Brain-prime. Determining a prime number.</li>
 </ul>
+
+<h3>Installation</h3>
+
+<ul>
+  <li>git clone https://github.com/dcdim/frontend-project-44.git</li>
+  <li>pm link</li>
+</ul>
+
+<h3>Gaming process</h3>
 
 Brain-even:
 

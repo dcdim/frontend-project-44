@@ -1,6 +1,11 @@
 import gameLogic, { roundNumber } from '../index.js';
 
-import getRandomNumber, { getRandomOperator } from '../random.js';
+import getRandomNumber from '../random.js';
+
+const getRandomOperator = () => {
+  const operators = ['+', '-', '*'];
+  return operators[Math.floor(Math.random() * operators.length)];
+};
 
 const mainQuestion = 'What is the result of the expression?';
 
@@ -13,8 +18,20 @@ const getQuestionAndAnswer = () => {
 
   const gameQuestion = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
 
-  // eslint-disable-next-line no-eval
-  const rightAnswer = eval(`${randomNumber1} ${randomOperator} ${randomNumber2}`);
+  const calculation = () => {
+    switch (randomOperator) {
+      case '+':
+        return randomNumber1 + randomNumber2;
+      case '-':
+        return randomNumber1 - randomNumber2;
+      case '*':
+        return randomNumber1 * randomNumber2;
+      default:
+        throw new Error(randomOperator`${randomOperator} - is incorrect!`);
+    }
+  };
+
+  const rightAnswer = calculation();
 
   return [gameQuestion, rightAnswer];
 };

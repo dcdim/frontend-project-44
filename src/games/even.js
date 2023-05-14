@@ -14,7 +14,7 @@ const getQuestionAndAnswer = () => {
 
     if (randomNumber % 2 === 0) {
       answer = 'yes';
-    } else if (randomNumber % 2 !== 0) {
+    } else {
       answer = 'no';
     }
 

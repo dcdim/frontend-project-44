@@ -11,36 +11,17 @@ const getQuestionAndAnswer = () => {
 
   const gameQuestion = `${randomNumber1} ${randomNumber2}`;
 
-  function divisors1() {
-    const result = [];
-    for (let i = 0; i <= randomNumber1; i += 1) {
-      if (randomNumber1 % i === 0) {
-        result.push(i);
-      }
+  const getGcd = (num1, num2) => {
+    if (num2 > num1) {
+      return getGcd(num2, num1);
     }
-    return result;
-  }
-
-  function divisors2() {
-    const result = [];
-    for (let i = 0; i <= randomNumber2; i += 1) {
-      if (randomNumber2 % i === 0) {
-        result.push(i);
-      }
+    if (!num2) {
+      return num1;
     }
-    return result;
-  }
+    return getGcd(num2, num1 % num2);
+  };
 
-  const arr1 = divisors1(randomNumber1);
-  const arr2 = divisors2(randomNumber2);
-
-  const commonDivisors = arr1.filter((element) => arr2.includes(element));
-
-  function largestNumber() {
-    return Math.max.apply(null, commonDivisors);
-  }
-
-  const rightAnswer = largestNumber(commonDivisors);
+  const rightAnswer = getGcd(randomNumber1, randomNumber2);
 
   return [gameQuestion, rightAnswer];
 };
