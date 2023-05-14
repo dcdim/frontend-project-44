@@ -18,7 +18,7 @@
 
 <ul>
   <li>git clone https://github.com/dcdim/frontend-project-44.git</li>
-  <li>pm link</li>
+  <li>npm link</li>
 </ul>
 
 <h3>Gaming process</h3>
